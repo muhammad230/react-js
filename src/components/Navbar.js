@@ -49,13 +49,3 @@ export default function Navbar(props) {
     </nav>
   );
 }
-
-Navebar.PropTypes = { title: propTypes.string };
-{
-  aboutText: PropTypes.string;
-}
-
-Navbar.defaultprops = {
-  title : 'title here'
- 
-}

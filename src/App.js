@@ -1,10 +1,14 @@
-import logo from './logo.svg';
-import Navbar from './components/Navbar';
+import logo from "./logo.svg";
+import Navbar from "./components/Navbar";
+import TextForm from "./components/TextForm";
 function App() {
   return (
     <>
-    
- <Navbar title ="3" aboutText ="About Text"/>
+      <Navbar title="Textutils" aboutText="About Text" />
+
+      <div className="container my-3">
+        <TextForm heading="Enter a text" />
+      </div>
     </>
   );
 }
